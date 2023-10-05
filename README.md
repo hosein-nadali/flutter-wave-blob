@@ -33,8 +33,6 @@ to `/example` folder.
 const like = 'sample';
 ```
 
-## Additional information
-
 # Author
 - **Hosein Nadalizadeh**
 - [Telegram/BlobDrawable](https://github.com/DrKLO/Telegram/blob/master/TMessagesProj/src/main/java/org/telegram/ui/Components/BlobDrawable.java)
