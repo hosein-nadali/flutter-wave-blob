@@ -26,12 +26,9 @@ import 'package:wave_blob/wave_blob.dart';
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+#### Simple usage
 
-```dart
-const like = 'sample';
-```
+1. Wrap Widget with **WaveBlob** and assign needed parameter.
 
 # Author
 - **Hosein Nadalizadeh**
