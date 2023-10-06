@@ -1,10 +1,10 @@
 ## Features
 
 ### Blob Wave Animation
-This package provide a blob wave animation that can be customized to your needs. You can playing audio using amplitude of voice.
+This package provide a blob wave animation that can be customized to your needs. You can playing audio using **amplitude** of voice.
 
 # Preview
-<img src="./example-1.gif" width 280">
+<img src="./example-1.gif" width 280>
 
 ## Getting started
 
