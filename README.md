@@ -34,10 +34,6 @@ SizedBox(
     width: MediaQuery.sizeOf(context).width * 0.4,
     height: MediaQuery.sizeOf(context).width * 0.4,
     child: WaveBlob(
-        amplitude: _amplitude,
-        scale: _scale,
-        autoScale: _autoScale,
-        centerCircle: true,
         child: const Icon(
             Icons.mic,
             color: Colors.white,
@@ -46,12 +42,12 @@ SizedBox(
     ),
 ),
 ```
-</br>
+
 > [!IMPORTANT]
 > Don't forget to set **Width** and **Height** to widget.
-</br>
+
 > [!NOTE]
-> Check example source code for more info
+> Check example source code for more info.
 
 ### Customization
 
