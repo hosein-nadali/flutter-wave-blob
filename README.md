@@ -4,7 +4,7 @@
 This package provide a blob wave animation that can be customized to your needs. You can playing audio using amplitude of voice.
 
 # Preview
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+<img src="./example-1.gif width 280">
 
 ## Getting started
 
