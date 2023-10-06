@@ -34,33 +34,33 @@ class WavePaint extends CustomPainter {
 
   @override
   void paint(Canvas canvas, Size size) {
+    Paint cPaint = Paint()..style = PaintingStyle.fill;
+    Paint bPaint = Paint()..style = PaintingStyle.fill;
+
     double cX = width / 2;
     double cY = height / 2;
 
+    if (circleColors == null) {
+      cPaint.color = Colors.blue;
+    } else if (circleColors!.isEmpty) {
+      cPaint.color = Colors.blue;
+    } else if (circleColors!.length == 1) {
+      cPaint.color = circleColors![0];
+    } else {
+      cPaint.shader = ui.Gradient.linear(
+        const Offset(0.0, 0.0),
+        Offset(width, height),
+        circleColors!,
+      );
+    }
+
     if (centerCircle && overCircle) {
-      Paint paint = Paint()..style = PaintingStyle.fill;
-
-      if (circleColors == null) {
-        paint.color = Colors.blue;
-      } else if (circleColors!.isEmpty) {
-        paint.color = Colors.blue;
-      } else if (circleColors!.length == 1) {
-        paint.color = circleColors![0];
-      } else {
-        paint.shader = ui.Gradient.linear(
-          const Offset(0.0, 0.0),
-          Offset(width, height),
-          circleColors!,
-        );
-      }
-
       canvas.save();
-      canvas.drawCircle(Offset(cX, cY), waves[0].minRadius, paint);
+      canvas.drawCircle(Offset(cX, cY), waves[0].minRadius, cPaint);
       canvas.restore();
     }
 
     for (WaveDrawable wave in waves) {
-      Paint paint = Paint()..style = PaintingStyle.fill;
       if (wave.maxRadius < 0) {
         double max = width / 2 / 1.25;
         wave.setMaxRadius(max);
@@ -80,29 +80,13 @@ class WavePaint extends CustomPainter {
       }
 
       canvas.save();
-      wave.draw(canvas, paint, Size(cX, cY));
+      wave.draw(canvas, bPaint, Size(cX, cY));
       canvas.restore();
     }
 
     if (centerCircle && !overCircle) {
-      Paint paint = Paint()..style = PaintingStyle.fill;
-
-      if (circleColors == null) {
-        paint.color = Colors.blue;
-      } else if (circleColors!.isEmpty) {
-        paint.color = Colors.blue;
-      } else if (circleColors!.length == 1) {
-        paint.color = circleColors![0];
-      } else {
-        paint.shader = ui.Gradient.linear(
-          const Offset(0.0, 0.0),
-          Offset(width, height),
-          circleColors!,
-        );
-      }
-
       canvas.save();
-      canvas.drawCircle(Offset(cX, cY), waves[0].minRadius, paint);
+      canvas.drawCircle(Offset(cX, cY), waves[0].minRadius, cPaint);
       canvas.restore();
     }
   }
