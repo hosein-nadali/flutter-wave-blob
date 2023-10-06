@@ -30,21 +30,28 @@ import 'package:wave_blob/wave_blob.dart';
 
 1. Wrap Widget with **WaveBlob** and assign needed parameter.
 ```dart
-WaveBlob(
-   height: MediaQuery.sizeOf(context).width * 0.8,
-   width: MediaQuery.sizeOf(context).width * 0.8,
-   centerCircle: true,
-   child: const Icon(
-       Icons.mic,
-       color: Colors.white,
-       size: 80.0,
-   ),
-)
+SizedBox(
+    width: MediaQuery.sizeOf(context).width * 0.4,
+    height: MediaQuery.sizeOf(context).width * 0.4,
+    child: WaveBlob(
+        amplitude: _amplitude,
+        scale: _scale,
+        autoScale: _autoScale,
+        centerCircle: true,
+        child: const Icon(
+            Icons.mic,
+            color: Colors.white,
+            size: 50.0,
+        ),
+    ),
+),
 ```
-
-
+</br>
+> [!IMPORTANT]
+> Don't forget to set **Width** and **Height** to widget.
+</br>
 > [!NOTE]
-> Check example cource for more info
+> Check example source code for more info
 
 ### Customization
 
