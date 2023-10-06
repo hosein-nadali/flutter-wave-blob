@@ -42,14 +42,16 @@ WaveBlob(
 )
 ```
 
+
 > [!NOTE]
 > Check example cource for more info
 
-#### Customization
+### Customization
 
 You can customize blob easily. You can change blob color, animation speed, min and max radius and etc.
 
 Example:
+
 </br>
 <img src="example-2.png" width=300 /> <img src="example-3.png" width=300 />
 
