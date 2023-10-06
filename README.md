@@ -5,7 +5,6 @@ This package provide a blob wave animation that can be customized to your needs.
 
 # Preview
 <img src="example-1.gif" width=300 />
-[//]: # ![example-1.gif](./example-1.gif)
 
 ## Getting started
 
