@@ -42,10 +42,10 @@ SizedBox(
     ),
 ),
 ```
-<br>
+<br />
 > [!IMPORTANT]
 > Don't forget to set **Width** and **Height** to widget.
-<br>
+<br />
 > [!NOTE]
 > Check example source code for more info.
 
