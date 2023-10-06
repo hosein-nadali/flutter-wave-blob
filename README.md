@@ -29,7 +29,7 @@ import 'package:wave_blob/wave_blob.dart';
 #### Simple usage
 
 1. Wrap Widget with **WaveBlob** and assign needed parameter.
-'''dart
+```dart
 WaveBlob(
    height: MediaQuery.sizeOf(context).width * 0.8,
    width: MediaQuery.sizeOf(context).width * 0.8,
@@ -40,7 +40,7 @@ WaveBlob(
        size: 80.0,
    ),
 )
-'''
+```
 
 # Author
 - **Hosein Nadalizadeh**
