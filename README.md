@@ -42,6 +42,17 @@ WaveBlob(
 )
 ```
 
+> [!NOTE]
+> Check example cource for more info
+
+#### Customization
+
+You can customize blob easily. You can change blob color, animation speed, min and max radius and etc.
+
+Example:
+
+
+
 # Author
 - **Hosein Nadalizadeh**
 - [Telegram/BlobDrawable](https://github.com/DrKLO/Telegram/blob/master/TMessagesProj/src/main/java/org/telegram/ui/Components/BlobDrawable.java)
