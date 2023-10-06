@@ -48,10 +48,9 @@ WaveBlob(
 
 ### Customization
 
-You can customize blob easily. You can change blob color, animation speed, min and max radius and etc.
-
+You can customize blob easily. You can change blob color, animation speed, min and max radius and etc. </br>
 Example:
-
+</br>
 </br>
 <img src="example-2.png" width=300 /> <img src="example-3.png" width=300 />
 
