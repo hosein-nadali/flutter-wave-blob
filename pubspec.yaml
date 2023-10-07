@@ -1,6 +1,6 @@
 name: wave_blob
 description: This package provide a blob wave animation that can be customized to your needs. You can playing audio using amplitude of voice.
-version: 1.0.2
+version: 1.0.3
 repository: https://github.com/hosein-nadali/flutter-wave-blob/
 homepage: https://github.com/hosein-nadali/flutter-wave-blob/
 
