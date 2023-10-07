@@ -21,7 +21,7 @@ class Utils {
       tileMode: TileMode.clamp,
       begin: Alignment.topLeft,
       end: Alignment.bottomRight,
-      transform: GradientRotation(angle ?? 10 / 10),
+      // transform: GradientRotation(angle ?? 10 / 10),
       colors: colors ??
           [
             const Color(0xff2BCEFF).withOpacity(0.3),
