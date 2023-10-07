@@ -133,12 +133,6 @@ class WaveDrawable {
     canvas.restore();
   }
 
-  ///
-  ///  git remote add origin https://github.com/hosein-nadali/flutter-wave-blob.git
-  /// git branch -M main
-  /// git push -u origin main
-  ///
-
   void setMaxRadius(double maxRadius) {
     _maxRadius = maxRadius;
   }
