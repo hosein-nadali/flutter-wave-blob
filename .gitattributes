@@ -1,2 +1,1 @@
-# Example of a `.gitattributes` file which reclassifies `.rb` files as Java:
-*.c linguist-language=C++
+*.c linguist-language=C
