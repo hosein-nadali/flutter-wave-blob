@@ -198,6 +198,6 @@ class WaveDrawable {
   }
 
   double _findWaveScale() {
-    return min(1.3, 1.0 + 0.26 * _amplitude);
+    return min(Utils.maxScale, 1.0 + 0.26 * _amplitude);
   }
 }
