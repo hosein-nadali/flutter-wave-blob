@@ -1,6 +1,6 @@
 name: wave_blob
 description: Wave Blob Animation
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/hosein-nadali/flutter-wave-blob/
 homepage: https://github.com/hosein-nadali/flutter-wave-blob/
 
@@ -18,13 +18,5 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
-
-screenshots:
-  - description: 'Example-1.gif'
-    path: example-1.gif
-  - description: 'Example-2.png'
-    path: example-2.png
-  - description: 'Example-3.png'
-    path: example-3.png
 
 flutter:

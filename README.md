@@ -4,7 +4,7 @@
 This package provide a blob wave animation that can be customized to your needs. You can playing audio using **amplitude** of voice.
 
 # Preview
-<img src="example-1.gif" width=300 />
+<img src="https://github.com/hosein-nadali/flutter-wave-blob/blob/main/example-1.gif?raw=true" width=300 />
 
 ## Getting started
 
@@ -45,13 +45,11 @@ SizedBox(
 
 <br>
 
-> [!IMPORTANT]
 > Don't forget set **Width** and **Height** of widget.
 
 <br>
 
-> [!NOTE]
-> Check example source code for more info.
+> Check [example](https://www.google.com) app for more info.
 
 ### Customization
 
@@ -63,7 +61,7 @@ Example:
 
 <br>
 
-<img src="example-2.png" width=300 /> <img src="example-3.png" width=300 />
+<img src="https://raw.githubusercontent.com/hosein-nadali/flutter-wave-blob/main/example-2.png" width=300 /> <img src="https://raw.githubusercontent.com/hosein-nadali/flutter-wave-blob/main/example-3.png" width=300 />
 
 
 # Author
