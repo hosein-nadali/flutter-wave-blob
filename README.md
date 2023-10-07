@@ -49,7 +49,7 @@ SizedBox(
 
 <br>
 
-> Check [example](https://www.google.com) app for more info.
+> Check [example app](https://github.com/hosein-nadali/flutter-wave-blob/tree/main/example) for more info.
 
 ### Customization
 
