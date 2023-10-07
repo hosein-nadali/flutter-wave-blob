@@ -7,6 +7,10 @@ build/
 # If you're building an application, you may want to check-in your pubspec.lock
 pubspec.lock
 
+example-1.gif
+example-2.png
+example-3.png
+
 # Directory created by dartdoc
 # If you don't generate documentation locally you can remove this line.
 doc/api/
