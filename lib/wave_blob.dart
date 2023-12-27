@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:wave_blob/wave_drawable.dart';
 import 'package:wave_blob/wave_paint.dart';
@@ -61,6 +63,10 @@ class _WaveBlobState extends State<WaveBlob> {
     for (int i = 0; i < length; i++) {
       blobs.add(WaveDrawable(8 + i));
     }
+
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
+      setState(() {});
+    });
   }
 
   @override
@@ -72,7 +78,7 @@ class _WaveBlobState extends State<WaveBlob> {
 
         if (hasInfiniteDimension) {
           ErrorWidget.builder = (error) => Container();
-          throw ("Can't get Infinite width or height. Please set dimensions for BlobWave widget");
+          throw ("Can't get infinite width or height. Please set dimensions for BlobWave widget");
         }
 
         return CustomPaint(
