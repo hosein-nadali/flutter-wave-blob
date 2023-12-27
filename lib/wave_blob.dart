@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:wave_blob/wave_drawable.dart';
 import 'package:wave_blob/wave_paint.dart';
