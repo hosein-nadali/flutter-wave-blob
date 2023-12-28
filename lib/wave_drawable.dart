@@ -162,8 +162,15 @@ class WaveDrawable {
         (_animateToAmplitude - _amplitude) / (100 + 500.0 * 0.33);
   }
 
-  void setColors(List<Color> colors) {
-    _colors = colors;
+  void setColors(List<Color>? colors) {
+    if (colors != null) {
+      _colors = colors;
+    } else {
+      _colors = [
+        const Color(0xff2BCEFF).withOpacity(0.3),
+        const Color(0xff0976E3).withOpacity(0.3),
+      ];
+    }
   }
 
   void _generateBlob(List<double> r, List<double> a, int i) {

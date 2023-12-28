@@ -74,10 +74,7 @@ class WavePaint extends CustomPainter {
       wave.setScale(scale);
       wave.setMaxSpeed(speed);
       wave.setAutoScale(autoScale);
-
-      if (colors != null) {
-        wave.setColors(colors!);
-      }
+      wave.setColors(colors);
 
       canvas.save();
       wave.draw(canvas, bPaint, Size(cX, cY));
