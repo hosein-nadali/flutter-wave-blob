@@ -1,4 +1,2 @@
-*.c linguist-language=C
-*.cpp linguist-language=C++
-*.h linguist-language=C++
-*.cmake linguist-language=CMake
+* linguist-vendored
+*.dart linguist-vendored=false
